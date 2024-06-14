@@ -33,7 +33,7 @@ tags:
 **注意**：用`override`修饰`public`变量，会重写与变量同名的`getter`函数，例如：
 
 ```solidity
-mapping(address => uint256) public override balanceOf;
+mapping(address => uint256) public override getter;
 ```
 
 ### 简单继承
